@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3619A2822216AF330071220F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2812216AF330071220F /* AppDelegate.swift */; };
-		3619A2842216AF330071220F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2832216AF330071220F /* ViewController.swift */; };
 		3619A2872216AF330071220F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3619A2852216AF330071220F /* Main.storyboard */; };
 		3619A2892216AF3C0071220F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3619A2882216AF3C0071220F /* Assets.xcassets */; };
 		3619A28C2216AF3C0071220F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3619A28A2216AF3C0071220F /* LaunchScreen.storyboard */; };
 		3619A2972216AF3C0071220F /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2962216AF3C0071220F /* UITableViewTests.swift */; };
 		3619A2A22216AF3D0071220F /* UITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2A12216AF3D0071220F /* UITableViewUITests.swift */; };
+		3619A2B02216B1AB0071220F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2AF2216B1AB0071220F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3619A27E2216AF330071220F /* UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3619A2812216AF330071220F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3619A2832216AF330071220F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3619A2862216AF330071220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3619A2882216AF3C0071220F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3619A28B2216AF3C0071220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3619A29D2216AF3D0071220F /* UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3619A2A12216AF3D0071220F /* UITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewUITests.swift; sourceTree = "<group>"; };
 		3619A2A32216AF3D0071220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3619A2AF2216B1AB0071220F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				3619A2812216AF330071220F /* AppDelegate.swift */,
-				3619A2832216AF330071220F /* ViewController.swift */,
 				3619A2852216AF330071220F /* Main.storyboard */,
+				3619A2AF2216B1AB0071220F /* TableViewController.swift */,
 				3619A2882216AF3C0071220F /* Assets.xcassets */,
 				3619A28A2216AF3C0071220F /* LaunchScreen.storyboard */,
 				3619A28D2216AF3C0071220F /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3619A2842216AF330071220F /* ViewController.swift in Sources */,
 				3619A2822216AF330071220F /* AppDelegate.swift in Sources */,
+				3619A2B02216B1AB0071220F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
