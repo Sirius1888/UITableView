@@ -14,6 +14,7 @@
 		3619A2972216AF3C0071220F /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2962216AF3C0071220F /* UITableViewTests.swift */; };
 		3619A2A22216AF3D0071220F /* UITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2A12216AF3D0071220F /* UITableViewUITests.swift */; };
 		3619A2B02216B1AB0071220F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3619A2AF2216B1AB0071220F /* TableViewController.swift */; };
+		36BD1AEB221BBE2300344427 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD1AEA221BBE2300344427 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3619A2A12216AF3D0071220F /* UITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewUITests.swift; sourceTree = "<group>"; };
 		3619A2A32216AF3D0071220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3619A2AF2216B1AB0071220F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		36BD1AEA221BBE2300344427 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3619A2882216AF3C0071220F /* Assets.xcassets */,
 				3619A28A2216AF3C0071220F /* LaunchScreen.storyboard */,
 				3619A28D2216AF3C0071220F /* Info.plist */,
+				36BD1AEA221BBE2300344427 /* NewViewController.swift */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BD1AEB221BBE2300344427 /* NewViewController.swift in Sources */,
 				3619A2822216AF330071220F /* AppDelegate.swift in Sources */,
 				3619A2B02216B1AB0071220F /* TableViewController.swift in Sources */,
 			);
